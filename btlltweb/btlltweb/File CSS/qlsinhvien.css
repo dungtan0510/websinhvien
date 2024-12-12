@@ -1,0 +1,156 @@
+﻿#content__body {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+body {
+    font-family: 'Times New Roman';
+}
+.introduce {
+    margin-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 120px;
+    text-transform: uppercase;
+    color: #54382c;
+    font-family: 'UTM Seagull';
+    font-size: 50px;
+}
+
+.introduce__box {
+    float: left;
+    width: 63%;
+    height: 386px;
+}
+
+.introduce__p {
+    margin-left: 110px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.introduce__img {
+    float: right;
+    width: 35%;
+    padding-left: 75px;
+}
+
+
+/*Footer*/
+#footer {
+    width: 100%;
+    position: relative;
+}
+
+.footer__item {
+    background-color: #b22830;
+    height: 200px;
+}
+
+#list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 50px;
+}
+
+    #list > li {
+        color: #FFF;
+        line-height: 20px;
+    }
+
+.footer__content {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 300px;
+}
+
+.footer__img {
+    margin-top: -40px;
+    margin-bottom: -10px;
+}
+
+.footer__icon > a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    margin-left: 19px;
+}
+
+.footer__gif {
+    margin-top: -25px;
+}
+
+.img__gif {
+    border-radius: 20px;
+}
+
+.footer__slogan {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: 550;
+    color: #fff;
+    font-family: 'UTM ALPINE KT';
+}
+
+#form1{
+    display:flex;
+}
+.trai{
+    float: left;
+    width: 65%;
+    padding-left:10px;
+}
+.phai {
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+
+
+.text2 {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.phai table {
+  
+  table-layout: fixed;
+}
+
+.phai table tr {
+  margin-bottom: 20px;
+}
+
+.phai table tr td {
+  padding: 5px; /* Adjust padding to your preference */
+}
+
+.phai table tr td label {
+  margin-right: 5px; /* Reduce label-textbox gap */
+  width: 100px; /* Maintain label width */
+}
+
+    .phai .timkiem {
+        margin-top: 20px;
+        text-align:center;
+    }
+.trai1 {
+    float: left;
+    width: 1000%;
+    padding-left: 10px;
+}
+.ds{
+    text-align:center;
+}

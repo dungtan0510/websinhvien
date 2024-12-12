@@ -1,0 +1,26 @@
+﻿.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+.btn-group {
+    margin-top: 15px;
+}
+.thang{
+    text-align:center
+}
+.h1{
+    padding:10px;
+
+}
